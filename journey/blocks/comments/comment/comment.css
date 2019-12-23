@@ -1,0 +1,17 @@
+.comment {
+    /* border: 1px solid red; */
+    max-height: none;
+    width: 382px;
+    top: 0px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .comment {
+        width: calc(100% - 16px);
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;    
+        flex-direction: column;    
+        align-items: center;
+    }
+}

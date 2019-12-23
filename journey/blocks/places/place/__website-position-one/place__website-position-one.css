@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+    .place__website-position-one {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .place__website-position-one {
+        display: none;
+    }
+}

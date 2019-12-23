@@ -1,0 +1,31 @@
+.comments__container {
+    /* border: 1px solid red; */
+    margin-top: 72px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* display: flex; */
+    /* flex-wrap: wrap;     */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+    .comments__container {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .comment__image {
+        order: 1;
+    }
+
+    .comment__autor {
+        order: 2;
+    }
+    
+    .comment__quote {
+        order: 3;
+    }
+
+    
+}

@@ -1,0 +1,8 @@
+.lead__image {
+    /* border: 1px solid red; */
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;    
+    display: block;
+}

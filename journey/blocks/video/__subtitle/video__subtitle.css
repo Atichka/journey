@@ -1,0 +1,38 @@
+.video__subtitle {
+    /* border: 1px solid red; */
+    position: absolute;
+    margin-left: 30px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1440px) {
+    .video__subtitle {
+        top: 180px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .video__subtitle {
+        top: 218px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .video__subtitle {
+        top: 150px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video__subtitle {
+        top: 145px;
+    }
+}

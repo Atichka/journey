@@ -1,0 +1,9 @@
+.place__size-main-information {
+    /* height: 460px; */
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .place__size-main-information {
+        flex-wrap: wrap;      
+    }
+}

@@ -1,0 +1,31 @@
+.comment__image {
+    /* border: 1px solid red; */
+    width: 164px;
+    height: 164px;
+    border-radius: 97px;
+    /* overflow: hidden; */
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .comment__image {
+        margin-left: 104px;
+        margin-right: 114px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .comment__image {
+        width: 98px;
+        height: 98px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .comment__image {
+        margin-left: auto;    
+        margin-right: auto;    
+        display: block;
+        order: -1;
+    }
+}
+

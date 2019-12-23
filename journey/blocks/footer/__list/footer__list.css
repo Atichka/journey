@@ -1,0 +1,20 @@
+.footer__list {
+    /* border: 1px solid red; */
+    margin-top: 0;
+    padding-left: 0;
+    
+    list-style-type: none;
+}
+
+@media screen and (min-width: 376px) and (max-width: 1440px) {
+    .footer__list {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .footer__list {
+        flex-wrap: wrap;
+    }
+}

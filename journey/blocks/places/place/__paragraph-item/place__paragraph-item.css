@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+    .place__paragraph-item {
+        width: 43%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .place__paragraph-item {
+        width: calc(100% - 32px);
+        padding: 0 16px;
+    }
+}
+
